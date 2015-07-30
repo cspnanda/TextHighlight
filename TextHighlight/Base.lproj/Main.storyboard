@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bjr-Gh-ysG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="600" id="RC0-mb-twz"/>
+                                    <constraint firstAttribute="height" constant="600" id="dGX-A8-ieK"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="RC0-mb-twz"/>
+                                        <exclude reference="dGX-A8-ieK"/>
+                                    </mask>
+                                </variation>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bjr-Gh-ysG" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="8aC-TA-ABY"/>
+                            <constraint firstItem="bjr-Gh-ysG" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="QH8-rv-1W9"/>
+                            <constraint firstItem="bjr-Gh-ysG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="R3g-7o-fsf"/>
+                            <constraint firstAttribute="centerY" secondItem="bjr-Gh-ysG" secondAttribute="centerY" id="YuY-bm-zcR"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="bjr-Gh-ysG" secondAttribute="bottom" id="aYQ-Gm-mQT"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bjr-Gh-ysG" secondAttribute="trailing" constant="-16" id="emm-4W-pQh"/>
+                            <constraint firstItem="bjr-Gh-ysG" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="f0g-h3-0eq"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="bjr-Gh-ysG" secondAttribute="bottom" id="gpO-gv-9ov"/>
+                            <constraint firstItem="bjr-Gh-ysG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="jXa-MW-Col"/>
+                            <constraint firstAttribute="centerX" secondItem="bjr-Gh-ysG" secondAttribute="centerX" id="ykq-4S-zo7"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="bjr-Gh-ysG" secondAttribute="trailing" constant="-16" id="zbX-mM-EZB"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="QH8-rv-1W9"/>
+                                <exclude reference="R3g-7o-fsf"/>
+                                <exclude reference="YuY-bm-zcR"/>
+                                <exclude reference="emm-4W-pQh"/>
+                                <exclude reference="f0g-h3-0eq"/>
+                                <exclude reference="ykq-4S-zo7"/>
+                                <exclude reference="gpO-gv-9ov"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="bjr-Gh-ysG" id="AKb-dq-rrt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

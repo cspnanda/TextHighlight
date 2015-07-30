@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>offset</key>
+	<array>
+		<array>
+			<string>The</string>
+			<real>0.019</real>
+			<real>0.218</real>
+		</array>
+		<array>
+			<string>quick</string>
+			<real>0.237</real>
+			<real>0.283</real>
+		</array>
+		<array>
+			<string>brown</string>
+			<real>0.52</real>
+			<real>0.382</real>
+		</array>
+		<array>
+			<string>fox</string>
+			<real>0.902</real>
+			<real>0.35</real>
+		</array>
+		<array>
+			<string>jumps</string>
+			<real>1.252</real>
+			<real>0.365</real>
+		</array>
+		<array>
+			<string>over</string>
+			<real>1.617</real>
+			<real>0.297</real>
+		</array>
+		<array>
+			<string>the</string>
+			<real>1.914</real>
+			<real>0.1</real>
+		</array>
+		<array>
+			<string>lazy</string>
+			<real>2.014</real>
+			<real>0.474</real>
+		</array>
+		<array>
+			<string>dog</string>
+			<real>2.488</real>
+			<real>0.389</real>
+		</array>
+	</array>
+</dict>
+</plist>
